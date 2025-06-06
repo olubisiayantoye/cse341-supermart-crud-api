@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Wireless Keyboard",
+    "description": "A sleek, ergonomic wireless keyboard with long battery life.",
+    "price": 12000,
+    "category": "Technology",
+    "quantity": 25,
+    "inStock": true,
+    "supplier": "GadgetHub",
+    "createdBy": "60f7d2f5c9d8983f50e7c9d0"
+  },
+  {
+    "name": "Fitness Tracker",
+    "description": "Monitors steps, heart rate, and sleep patterns.",
+    "price": 18000,
+    "category": "Health & Wellness",
+    "quantity": 15,
+    "inStock": true,
+    "supplier": "FitTech",
+    "createdBy": "60f7d2f5c9d8983f50e7c9d0"
+  },
+  {
+    "name": "Noise-Cancelling Headphones",
+    "description": "Over-ear headphones with active noise cancellation and Bluetooth.",
+    "price": 35000,
+    "category": "Entertainment",
+    "quantity": 10,
+    "inStock": true,
+    "supplier": "SoundCore",
+    "createdBy": "60f7d2f5c9d8983f50e7c9d0"
+  },
+  {
+    "name": "Smart LED Bulb",
+    "description": "Color-changing smart bulb controllable via app or voice assistant.",
+    "price": 5500,
+    "category": "Lifestyle",
+    "quantity": 50,
+    "inStock": true,
+    "supplier": "HomeBright",
+    "createdBy": "60f7d2f5c9d8983f50e7c9d0"
+  },
+  {
+    "name": "E-Book Reader",
+    "description": "Compact e-reader with glare-free screen and Wi-Fi support.",
+    "price": 25000,
+    "category": "Education",
+    "quantity": 12,
+    "inStock": false,
+    "supplier": "BookNest",
+    "createdBy": "60f7d2f5c9d8983f50e7c9d0"
+  },
+  {
+    "name": "Budget Planner Notebook",
+    "description": "Helps track income, expenses, and savings goals.",
+    "price": 2000,
+    "category": "Finance",
+    "quantity": 100,
+    "inStock": true,
+    "supplier": "PaperWell",
+    "createdBy": "60f7d2f5c9d8983f50e7c9d0"
+  },
+  {
+    "name": "Travel Adapter Set",
+    "description": "Universal adapter with surge protection and USB ports.",
+    "price": 8000,
+    "category": "Travel",
+    "quantity": 30,
+    "inStock": true,
+    "supplier": "WorldCharge",
+    "createdBy": "60f7d2f5c9d8983f50e7c9d0"
+  }
+]

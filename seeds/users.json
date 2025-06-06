@@ -1,0 +1,51 @@
+[
+  {
+    "_id": { "$oid": "665f1c01f1e8a4a1b0a00101" },
+    "githubId": "101",
+    "username": "janedoe",
+    "email": "janedoe@example.com",
+    "avatar": "https://avatars.githubusercontent.com/u/101?v=4"
+  },
+  {
+    "_id": { "$oid": "665f1c01f1e8a4a1b0a00102" },
+    "githubId": "102",
+    "username": "johndev",
+    "email": "johndev@example.com",
+    "avatar": "https://avatars.githubusercontent.com/u/102?v=4"
+  },
+  {
+    "_id": { "$oid": "665f1c01f1e8a4a1b0a00103" },
+    "githubId": "103",
+    "username": "codequeen",
+    "email": "codequeen@example.com",
+    "avatar": "https://avatars.githubusercontent.com/u/103?v=4"
+  },
+  {
+    "_id": { "$oid": "665f1c01f1e8a4a1b0a00104" },
+    "githubId": "104",
+    "username": "techguru",
+    "email": "techguru@example.com",
+    "avatar": "https://avatars.githubusercontent.com/u/104?v=4"
+  },
+  {
+    "_id": { "$oid": "665f1c01f1e8a4a1b0a00105" },
+    "githubId": "105",
+    "username": "openstacker",
+    "email": "openstacker@example.com",
+    "avatar": "https://avatars.githubusercontent.com/u/105?v=4"
+  },
+  {
+    "_id": { "$oid": "665f1c01f1e8a4a1b0a00106" },
+    "githubId": "106",
+    "username": "devgenius",
+    "email": "devgenius@example.com",
+    "avatar": "https://avatars.githubusercontent.com/u/106?v=4"
+  },
+  {
+    "_id": { "$oid": "665f1c01f1e8a4a1b0a00107" },
+    "githubId": "107",
+    "username": "buildmaster",
+    "email": "buildmaster@example.com",
+    "avatar": "https://avatars.githubusercontent.com/u/107?v=4"
+  }
+]

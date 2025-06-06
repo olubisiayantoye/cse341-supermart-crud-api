@@ -1,0 +1,30 @@
+[
+  {
+    "categoryName": "Technology",
+    "description": "Articles and discussions related to the latest tech trends and innovations."
+  },
+  {
+    "categoryName": "Health & Wellness",
+    "description": "Content focused on mental and physical well-being."
+  },
+  {
+    "categoryName": "Finance",
+    "description": "Insights and tips on saving, investing, and managing money."
+  },
+  {
+    "categoryName": "Education",
+    "description": "Resources, news, and opinions about learning and teaching."
+  },
+  {
+    "categoryName": "Travel",
+    "description": "Destination guides, travel hacks, and experiences."
+  },
+  {
+    "categoryName": "Lifestyle",
+    "description": "Topics on daily life, hobbies, and self-improvement."
+  },
+  {
+    "categoryName": "Entertainment",
+    "description": "Movies, music, games, and pop culture updates."
+  }
+]

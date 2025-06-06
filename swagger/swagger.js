@@ -11,8 +11,13 @@ const options = {
     },
     servers: [
       {
-        url: process.env.BASE_URL || 'http://localhost:3000',
-      },
+      url: process.env.BASE_URL || "http://localhost:3000",
+      description: "Dynamic server URL",
+    },
+    {
+      url: "https://cse341-supermart-crud-api.onrender.com",
+      description: "Production server",
+    },
     ],
   },
   apis: ['./routes/productRoutes.js', './routes/categoryRoutes.js'], 

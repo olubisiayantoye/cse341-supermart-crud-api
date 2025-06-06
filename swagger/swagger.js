@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const swaggerJsdoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 
@@ -21,15 +22,21 @@ const options = {
       },
     ],
   },
-  apis: ['./routes/productRoutes.js', './routes/categoryRoutes.js'],
+  apis: [
+    path.resolve(__dirname, '../routes/productRoutes.js'),
+    path.resolve(__dirname, '../routes/categoryRoutes.js'),
+  ],
 };
 
 const specs = swaggerJsdoc(options);
 
-// Save the specs to swagger.json
-fs.writeFileSync('./swagger.json', JSON.stringify(specs, null, 2), 'utf-8');
+// Generate swagger.json file
+const outputPath = path.resolve(__dirname, 'swagger.json');
+fs.writeFileSync(outputPath, JSON.stringify(specs, null, 2), 'utf-8');
 
-// Optional: For express setup (if you're using this in your server)
-module.exports = (app) => {
+// Export a function to use in your main app
+const setupSwagger = (app) => {
   app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
 };
+
+module.exports = setupSwagger;

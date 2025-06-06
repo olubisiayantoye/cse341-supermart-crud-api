@@ -8,7 +8,7 @@ const authRoutes = require('./routes/authRoutes');
 const productRoutes = require('./routes/productRoutes');
 const categoryRoutes = require('./routes/categoryRoutes');
 const errorHandler = require('./middlewares/errorHandler');
-
+const setupSwagger = require('./swagger/swagger');
 const cors = require('cors');
 
 // Load env variables
@@ -54,7 +54,7 @@ app.use(errorHandler);
 app.get('/', (req, res) => {
   res.send('Project-Supermarket (CRUD Operations)');
 });
-
+setupSwagger(app); // Swagger setup
 // Start Server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

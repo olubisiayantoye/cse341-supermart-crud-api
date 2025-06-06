@@ -1,11 +1,11 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Product API with OAuth",
+    "title": "Simple-Supermart API with OAuth",
     "description": "CRUD API with GitHub OAuth2 authentication",
     "version": "1.0.0"
   },
-  "host": "crud-api-oauthja.onrender.com",
+  "host": "cse341-supermart-crud-api.onrender.com",
   "basePath": "/",
   "schemes": ["https"],
   "paths": {
